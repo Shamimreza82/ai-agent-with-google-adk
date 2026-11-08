@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@google/adk": "^2.4.0"
+  },
+  "devDependencies": {
+    "@google/adk-devtools": "^2.4.0"
+  }
+}
