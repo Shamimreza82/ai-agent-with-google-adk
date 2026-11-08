@@ -77,7 +77,8 @@ Open the **Trace/Events** tab in adk web to see each tool call and its result.
 
 **Exercise:** add a `convert_units` tool, for example km ↔ miles.
 
-- [ ] Done
+- [x] Built
+- [ ] Exercise done
 
 ---
 
@@ -188,6 +189,10 @@ This step puts everything from Steps 1–6 together.
 ```bash
 # Dev UI: chat, trace, events, state (recommended)
 npx adk web
+
+# New lesson folder not in the dropdown? adk web only scans for agents at startup.
+# Stop it (Ctrl+C) and start it again. --reload_agents also reloads code changes:
+npx adk web --reload_agents
 
 # Terminal chat for one agent
 npx adk run lesson01_hello/agent.ts
